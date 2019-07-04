@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Pertemuan 3
+	</title>
+</head>
+<body>
+<?php
+	$nilai1=5;
+	$nilai2=10;
+	$nilai3=($nilai1*$nilai2)/$nilai1;
+	print "(".($nilai1." * ".$nilai2).")"." / ".$nilai1." = ".$nilai3;
+	// Tulisan Bold menggunakan <STRING>
+	  ?>
+</body>
+</html>
