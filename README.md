@@ -1,5 +1,5 @@
 # TiSiber
-Nama Projek : Membuat Petshop
+Nama Projek : Membuat Web Penjadwalan
 
 Nama Kelompok :
 - Abdul Aziz Fakhrul
