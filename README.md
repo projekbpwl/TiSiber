@@ -1,5 +1,5 @@
 # TiSiber
-Nama Projek : Membuat Web Penjadwalan
+Nama Projek : Perpustakaan online
 
 Nama Kelompok :
 - Abdul Aziz Fakhrul
