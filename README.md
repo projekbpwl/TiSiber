@@ -9,4 +9,4 @@ Nama Kelompok :
 Pembagian Tugas :
 Aziz : membuat tampilan awal
 Adi : membuat proses dan database
-tasya : Mengabungkan script dari aziz dan adi
+Tasya : Membuat form login, daftar, cek login, proses, dan konfigurasi
