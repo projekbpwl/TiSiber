@@ -8,5 +8,5 @@ Nama Kelompok :
 
 Pembagian Tugas :
 Aziz : membuat tampilan awal
-Adi : membuat proses dan database
+Adi : membuat tampilan awal sebelum login, membuat tampilan setelah login jika admin atau member, dan membuat logout.php
 Tasya : Membuat form login, daftar, cek login, proses, dan konfigurasi
