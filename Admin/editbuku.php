@@ -41,11 +41,11 @@
               <ul class="nav navbar-nav navbar-right user-nav">
                 <li class="user-name"><span style="color:white">Hai, <?php echo $nama;?></span></span></li>
                   <li class="dropdown avatar-dropdown">
-                   <img src="../asset/img/<?php if('$tampil["gambar"]'){
+                   <img src="../asset/img/<?php if($tampil['gambar']==""){
                     echo 'avatar.jpg';
                    }else{
                     echo $tampil['gambar'];
-                   }?>" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
+                  }?>" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/>
                    <ul class="dropdown-menu user-dropdown" style="margin-right: 30px">
                      <li><a href="profil.php"><span class="fa fa-user"></span> My Profile</a></li>
                      <li><a href="#"><span class="fa fa-sign-out"></span> Logout </a></li>
