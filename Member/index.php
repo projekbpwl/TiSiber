@@ -123,8 +123,8 @@
                                     <img src="../asset/img/avatar.jpg" style="width: 100px;height:100px;">
                                   </div>
                                   <div class="col-sm-9">
-                                    <p>Selamat Datang kembali admin</p>
-                                    <small><?php echo $nama;?></small>
+                                    <p>Selamat Datang kembali <?php echo $nama;?></p>
+                                    <small>Perpustakaan ini tempat untuk membaca buku secara online</small>
                                   </div>
                                 </div>
                               </blockquote>

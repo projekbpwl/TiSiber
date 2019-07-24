@@ -82,9 +82,6 @@
                           <li><a href="tambahbuku.php">Tambah Buku</a></li>
                       </ul>
                     </li>
-                    <li class="active ripple">
-                      <li class="ripple"><a href="soal.php"><span class="icon icons icon-docs fa-2x"></span>Data Soal <br>Dan Pembahasan</a></li>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -130,22 +127,6 @@
                                           <div class="form-group">
                                               <label>Jenis Buku</label>
                                               <input class="form-control" name="jenis_buku" value="<?php echo $tampil['jenis_buku'];?>" />
-                                          </div>
-                                          <div class="form-group">
-                                            <label>Prodi Mahasiswa</label><br>
-                                              <select name="prodi" />
-                                                <option>Pilih</option>
-                                                <option <?php if($tampil['prodi']=="Akuntansi"){echo "selected";} ?>>Akuntansi</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Komputer"){echo "selected";} ?>>Teknik Komputer</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Elektronika"){echo "selected";} ?>>Teknik Elektronika</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Mekatronika"){echo "selected";} ?>>Teknik Mekatronika</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Telekomunikasi"){echo "selected";} ?>>Teknik Telekomunikasi</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Informatika"){echo "selected";} ?>>Teknik Informatika</option>
-                                                <option <?php if($tampil['prodi']=="Sistem Informasi"){echo "selected";} ?>>Sistem Informasi</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Elektronika Telekomunikasi"){echo "selected";} ?>>Teknik Elektronika Telekomunikasi</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Mesin"){echo "selected";} ?>>Teknik Mesin</option>
-                                                <option <?php if($tampil['prodi']=="Teknik Listrik"){echo "selected";} ?>>Teknik Listrik</option>
-                                              </select><br><br>
                                           </div>
                                           <div class="form-group">
                                               <label>Tahun Terbit Buku</label>
